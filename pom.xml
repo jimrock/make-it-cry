@@ -5,7 +5,7 @@
 	http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>sample</groupId>
+    <groupId>jimchen</groupId>
     <artifactId>make-it-cry</artifactId>
     <name>make-it-cry</name>
 
@@ -61,4 +61,11 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>jimchen_ci_demo</id>
+            <url>http://internal-coach-web.eastasia.cloudapp.azure.com:9099/</url>
+        </repository>
+    </distributionManagement>
 </project>
