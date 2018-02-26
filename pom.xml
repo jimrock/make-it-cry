@@ -65,7 +65,7 @@
     <distributionManagement>
         <repository>
             <id>jimchen_ci_demo</id>
-            <url>http://internal-coach-web.eastasia.cloudapp.azure.com:9098/</url>
+            <url>http://internal-coach-web.eastasia.cloudapp.azure.com:9099/</url>
         </repository>
     </distributionManagement>
 </project>
